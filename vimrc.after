@@ -1,0 +1,13 @@
+color rdark
+:set mouse=a
+:set cul cuc
+map vat<Esc>da>`<da> dot
+set tags+=gems.tags
+map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
+map <Leader>re :!ruby ~/bundler-tags.rb<CR>
+map <Leader>t :CtrlP<CR>
+map <Leader>zz :ZoomWin<CR>
+map <Leader>rr :NarrowRegion<CR>
+nmap <F8> :TagbarToggle<CR>
+nmap <F9> :NERDTreeToggle<CR>
+map <Leader>be :BufExplorer<CR>
