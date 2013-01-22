@@ -1,4 +1,5 @@
-dotfiles
+retro's dotfiles
 ========
 
-My Janus addition
+My personal Janus addition. You'll need Janus installed and rc files
+symlinked into $HOME with dot prefix.
